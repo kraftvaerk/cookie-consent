@@ -1,0 +1,12 @@
+{
+    "extends": ["eslint:recommended", "airbnb-lite"],
+    "rules": {
+        "indent":                [2, 4],
+        "quotes":                [2, "single", "avoid-escape"],
+        "padded-blocks":         [0]
+    },
+    "env": {
+        "mocha": true,
+        "node":  true
+    }
+}
