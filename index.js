@@ -80,9 +80,9 @@
                 status = cookie.get();
 
             elm.on('click', 'a', function(e){
-                e.preventDefault();
 
                 if($(this).is(opt.btn.close)){
+                    e.preventDefault();
                     elm[opt.transition.hide.type](opt.transition.hide.duration);
 
                     if(opt.consentType === 'implied'){
@@ -92,6 +92,7 @@
                 }
 
                 if($(this).is(opt.btn.accept)){
+                    e.preventDefault();
                     cookie.set('allowed');
 
                     opt.onAccepted.call(this, elm);
@@ -102,6 +103,7 @@
                 }
 
                 if($(this).is(opt.btn.decline)){
+                    e.preventDefault();
                     cookie.set('disallowed');
 
                     opt.onDeclined.call(this, elm);
