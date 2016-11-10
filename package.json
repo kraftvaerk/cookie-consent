@@ -1,6 +1,6 @@
 {
   "name": "kv.cookieconsent",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "jQuery cookie consent plugin",
   "main": "index.js",
   "repository": {
