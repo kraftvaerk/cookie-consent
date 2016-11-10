@@ -18,6 +18,7 @@
         defaults = {
             cookieName: 'cookieConsent',
             btn: {
+                class: '.btn',
                 accept: '.accept',
                 decline: '.decline',
                 close: '.close'
@@ -79,7 +80,7 @@
                 opt = this.options,
                 status = cookie.get();
 
-            elm.on('click', 'a', function(e){
+            elm.on('click', opt.btn.class, function(e){
 
                 if($(this).is(opt.btn.close)){
                     e.preventDefault();
