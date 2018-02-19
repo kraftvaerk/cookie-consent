@@ -6,3 +6,6 @@ npm-debug.log
 .eslintrc
 .gitignore
 .travis.yml
+.babelrc
+.browserslistrc
+CHANGELOG.MD
