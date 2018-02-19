@@ -28,8 +28,8 @@ cookieConsent.onHide(){}
 cookieConsent.init('#cookieContent');
 ```
 
-## Version 1.0
-Version 1.0 is a complete rewrite. The most substantial new features are:
+## Version 1.0.0
+Version 1.0.0 is a complete rewrite. The most substantial new features are:
 
 - no jQuery dependency 
 - callback hooks for showing/accepting/revoking the banner
