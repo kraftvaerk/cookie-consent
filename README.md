@@ -7,7 +7,7 @@ It is designed to help you comply with the hideous EU Cookie Law.
 npm install kv.cookie-consent
 ```
 
-## Available options
+## Usage
 ```javascript
 import CookieConsent from 'kv.cookieconsent';
 
