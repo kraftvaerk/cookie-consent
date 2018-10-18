@@ -1,6 +1,6 @@
 {
-  "name": "kv.cookieconsent",
-  "version": "1.0.0",
+  "name": "@kraftvaerk/cookieconsent",
+  "version": "2.0.0",
   "description": "Cookie Consent is a lightweight JavaScript plugin for alerting users about the use of cookies on your website.",
   "main": "dist/index.js",
   "scripts": {

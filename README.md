@@ -4,12 +4,12 @@ It is designed to help you comply with the hideous EU Cookie Law.
 
 ## Installation
 ```
-npm install kv.cookie-consent
+npm install @kraftvaerk/cookieconsent
 ```
 
 ## Usage
 ```javascript
-import CookieConsent from 'kv.cookieconsent';
+import CookieConsent from '@kraftvaerk/cookieconsent';
 
 const cookieConsent = new CookieConsent({
     cookieName: 'cookieConsent',
@@ -27,6 +27,9 @@ cookieConsent.onHide(){}
 
 cookieConsent.init('#cookieContent');
 ```
+
+## Version 2.0.0
+Version 2.0.0 has moved to scoped npm packages.
 
 ## Version 1.0.0
 Version 1.0.0 is a complete rewrite. The most substantial new features are:
