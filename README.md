@@ -20,10 +20,10 @@ const cookieConsent = new CookieConsent({
     toggleClass: 'is-shown'
 });
 
-cookieConsent.onCheck(){}
-cookieConsent.onAccept(){}
-cookieConsent.onShow(){}
-cookieConsent.onHide(){}
+cookieConsent.onCheck(()=>{});
+cookieConsent.onAccept(()=>{});
+cookieConsent.onShow(()=>{});
+cookieConsent.onHide(()=>{});
 
 cookieConsent.init('#cookieContent');
 ```
