@@ -1,4 +1,7 @@
 # What is Cookie Consent?
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/kraftvaerk/cookie-consent.svg)](https://greenkeeper.io/)
+
 Cookie Consent is a lightweight JavaScript plugin for alerting users about the use of cookies on your website.
 It is designed to help you comply with the hideous EU Cookie Law.
 
