@@ -25,7 +25,7 @@ cookieConsent.onAccept(()=>{});
 cookieConsent.onShow(()=>{});
 cookieConsent.onHide(()=>{});
 
-cookieConsent.init('#cookieContent');
+cookieConsent.init('#cookieConsent');
 ```
 
 ## Version 2.0.0
