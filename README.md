@@ -16,7 +16,7 @@ const cookieConsent = new CookieConsent({
     btn: {
         accept: 'js-cookie-accept',
         close: 'js-cookie-close'
-    }
+    },
     toggleClass: 'is-shown'
 });
 
